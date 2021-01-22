@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+{% extends 'locksmith_app/base.html'%}
+{% block body_block %}
+{% load static %}
+
+<div class="card mb-3">
+  <img src="{% static 'images/people@work.jpg' %}" height="600" class="card-img-top" alt="...">
+</div>
+
+<footer class="footer-distributed">
+  <div class='footer-left'>
+
+      <h1 style="color: white; font-size: 2em; font-style: bold;">Visit Us @:</h1>
+    <span><p style="color: #e0ac1c; font-size: 1em; font-style: bold;">Mitchell's plain town</p>
+      <p style="color: #e0ac1c; font-size: 1em; font-style: bold;">7 Polka Square</p>
+      <p style="color: #e0ac1c; font-size: 1em; font-style: bold;">Town Centre</p>
+      <p style="color: #e0ac1c; font-size: 1em; font-style: bold;">Western Cape</p></span>
+  </div>
+
+  <div class="footer-right">
+    <img src="{% static 'images/face.jpg' %}" alt="" width="110" height="150">
+    <span><h1 style="color: red; font-size: 1em; font-style: bold;">Call Titus @: 06 767 67136</h1></span>
+    <span><h1 style="color: green; font-size: 1em; font-style: bold;">WhatsApp @: 06 767 67136</h1></span>
+  </div>
+
+  <div class="footer-center">
+    <div class="">
+        <p style="color: red; font-size: 1.5em; font-style: bold;">COVID-ALERT!!! <p style="color: white; font-size: 1.5em; font-style: bold;">We are in full support of the rules and regulations set by the South African Government, 
+          always wear a face-mask, wash and sanitise your hands when entering public places. TimCole Locksmith thanks you for your continued support for growth.</p></p>
+      </div>
+  </div>
+
+</footer>
+{% endblock %}

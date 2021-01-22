@@ -1,9 +1,0 @@
-<!DOCTYPE html>
-{% extends "basic_app/base.html" %}
-  {% block body_block %}
-        <h1>Wellcome to the Home page</h1>
-        <h2>{{ text|lower }}</h2>
-        <h2>{{ number|add:11 }}</h2>
-        {% comment %} <a href="{% url 'basic_app:page1' %}">Page_1</a>
-        <a href="{% url 'basic_app:page2' %}">Page2</a> {% endcomment %}
- {% endblock %}
