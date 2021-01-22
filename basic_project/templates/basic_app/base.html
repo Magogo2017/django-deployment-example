@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="C:\Users\PrinceM\Desktop\bootstrap-4.5.0-dist\css\bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <nav class= "navbar navbar-default navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <a class='navbar-brand' href="{% url 'basic_app:page1' %}">PAGE_1</a>
+          <a class='navbar-brand' href="{% url 'basic_app:page2' %}">PAGE_2</a>
+          <a class='navbar-brand' href="{% url 'basic_app:index' %}">HOME</a>
+        </div>
+
+      </nav>
+    </div>
+
+
+    <div class="container">
+    {% block body_block %}
+
+    {% endblock %}
+    </div>
+    <script src='C:\Users\PrinceM\Desktop\bootstrap-4.5.0-dist\js\bootstrap.js'>      
+    </script>
+
+  </body>
+
+</html>
